@@ -7,29 +7,29 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "lib": [
-      "dom",
-      "es2017"
+      "es5",
+      "es6"
     ],
+    "target": "es5",
     "module": "esnext",
     "moduleResolution": "node",
+    "outDir": "./build",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": true,
-    "target": "esnext"
+    "strict": false
   },
-  "exclude": [
-    "node_modules",
-    "_actions",
-    "_PipelineMapping",
-    "_tool",
-    "actions-runner"
-  ],
   "include": [
     "**/*.ts",
     "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }

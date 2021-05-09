@@ -49,7 +49,7 @@ Install Typescript to Project
 Install Typescript
 
 ``` bash
-yarn add --dev typescript @types/react @types/node
+yarn add --dev yarn add --dev ts-node@latest @types/node@latest typescript@latest
 ```
 
 เพิ่ม `next-env.d.ts`
